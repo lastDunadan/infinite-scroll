@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+/* RESET */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: whitesmoke;
+}
+
+/* MAIN STYLING */
+h1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4rem;
+  width: 320px;
+  font-weight: 500;
+}
+h2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
+  width: 320px;
+  color: #abcad8;
+}
+.mt-green {
+    color: #8fc84c;
+}
+
+.mt-blue {
+ color: #26a8e0;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
